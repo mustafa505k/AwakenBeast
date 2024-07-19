@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2nd project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+
+
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> AwakenBeast</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="#">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="service.html">Service</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="contact.html">Countact us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="location.html">Location</a></li>
+                            <li><a class="dropdown-item" href="#">Franchise</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">More Deatils</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger"data-bs-toggle="modal" data-bs-target="#loginModal">login</button>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  
+  <!--login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">Login to AwakenBeast</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="carouselloginCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselloginCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselloginCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselloginCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <img src="C:\Users\91866\OneDrive\Desktop\AMEEN (FULL)\360_F_320459487_SAvrvfR4NN4CkFQccj49rBfmiLoYebuw.jpg"
+                    class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Build like a Beast.</h5>
+                    <p>Go heavy either go Home.</p>
+
+                    <button class="btn btn-primary">Membership info</button>
+
+                    <button class="btn btn-danger">Offer info</button>
+                    <button class="btn btn-success">Join</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\91866\OneDrive\Desktop\AMEEN (FULL)\pexels-pixabay-414029.jpg" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Struggle is real</h5>
+                    <p>Push your self coz no one else is going to do it for you.</p>
+                    <button class="btn btn-primary">Membership info</button>
+
+                    <button class="btn btn-danger">Offer info</button>
+                    <button class="btn btn-success">Join</button>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\91866\OneDrive\Desktop\AMEEN (FULL)\istockphoto-1303065420-2048x2048.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fuck depression Go Gym</h5>
+                    <p>Today's effort is tomorrow's success.</p>
+                    <button class="btn btn-primary">Membership info</button>
+
+                    <button class="btn btn-danger">Offer info</button>
+                    <button class="btn btn-success">Join</button>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselloginCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselloginCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="countainer my-5">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark ">AwakenBeast</strong>
+                        <h3 class="mb-0">Expert Trainers</h3>
+                        <div class="mb-1 text-body-secondary"></div>
+                        <p class="card-text mb-auto">Our certified trainers offer personalized guidance and support to
+                            help you reach your goals, wheather it's weight loss, muscle gain or overall fitness </p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="img-fluid  bd-placeholder-img" width="300" height="350"
+                            src="C:\Users\91866\OneDrive\Desktop\AMEEN (FULL)\360_F_270275705_Ja0uASDTp5tCasU2amYLOMvUBT0Qv7m5.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-success-emphasis">AwakenBeast</strong>
+                        <h3 class="mb-0">Women's Exclusive Training Times</h3>
+                        <div class="mb-1 text-body-secondary"></div>
+                        <p class="mb-auto">We offer a premium fitness experience tailored to all needs our cutting-edge
+                            equipment, we provide dedicated women's training time to creat a comfortable and supportive
+                            environment for all our female members.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="img-fluid  bd-placeholder-img" width="300" height="350"
+                            src="C:\Users\91866\OneDrive\Desktop\AMEEN (FULL)\istockphoto-1438034462-612x612.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="countainer my-5">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-success-emphasis">AwakenBeast</strong>
+                        <h3 class="mb-0">Modren Equipment</h3>
+                        <div class="mb-1 text-body-secondary"></div>
+                        <p class="card-text mb-auto">AwakenBeast fitness is equipped with the latest machines and
+                            technology to provide you with a comprehnsive workout experience, it designed to maximize
+                            your result and track your progress. </p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class=" img-fluid bd-placeholder-img" width="300" height="350"
+                            src="C:\Users\91866\OneDrive\Desktop\AMEEN (FULL)\images.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-dark-success-emphasis">AwakenBeast</strong>
+                        <h3 class="mb-0">Varied Classes</h3>
+                        <div class="mb-1 text-body-secondary"></div>
+                        <p class="mb-auto">From high-intensity interval traning (HiiT) to yoga and spinning, we offer a
+                            wide range of classes designed to fit your intrest and fitness level our varied class
+                            schedule is designed to keep you engaged and motivated.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class=" img-fluid bd-placeholder-img" width="300" height="350"
+                            src="C:\Users\91866\OneDrive\Desktop\AMEEN (FULL)\istockphoto-966295656-612x612.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+  <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-header p-5 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body p-5 pt-0">
+          <form class="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@login.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Confirm Password</label>
+              </div>
+            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+            <hr class="my-4">
+            <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
+              Sign up with Twitter
+            </button>
+            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"></use></svg>
+              Sign up with Facebook
+            </button>
+            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+              <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"></use></svg>
+              Sign up with GitHub
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+        <footer class="container py-5 my-5 ">
+            
+            <div class="row">
+                <div class="col-12 col-md">
+                   
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                        viewBox="0 0 24 24">
+                        <title>Product</title>
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path
+                            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+                        </path>
+                    </svg>
+                    <small class="d-block mb-3 text-body-secondary">© 2017–2024</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">Modren machines</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Expert trainers</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">supportive</a></li>
+
+                        <li><a class="link-secondary text-decoration-none" href="#">clean & hygiene</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Team</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">jon</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">swati</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">rahu</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">raheem</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                        <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>© 2017–2024 AwakenBeast. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
